@@ -1,0 +1,34 @@
+{
+	"name": "about.me",
+	"version": "1.0.0",
+	"description": "Single page web template",
+	"main": "gulpfile.js",
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp sass"
+	},
+	"keywords": [
+		"template",
+		"resume",
+		"cv"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/VJAI/about.me.git"
+	},
+	"author": "Vijaya Anand <vijay.prideparrot@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/VJAI/about.me/issues"
+	},
+	"homepage": "https://github.com/VJAI/about.me#readme",
+	"devDependencies": {
+		"electron-prebuilt": "^1.4.13",
+		"gulp": "^3.9.1",
+		"gulp-concat": "^2.6.1",
+		"gulp-sass": "^4.0.2",
+		"gulp-webserver": "^0.9.1",
+		"webpack-dev-server": "^2.9.7",
+		"webpack-serve": "^3.2.0"
+	}
+}
