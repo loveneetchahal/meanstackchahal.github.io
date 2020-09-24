@@ -110,7 +110,7 @@ body {
     width: 100%;
     height: 100vh;
     box-shadow: 5px 0 5px -5px #cccccc;
-    background-image: url("assets/photo-2.jpeg");
+    background-image: url("assets/photo-3.jpg");
     background-size: cover;
     background-position: center;
     filter: grayscale(90%);
@@ -223,8 +223,15 @@ body {
           border-bottom: none; }
         body .right .section .top-row > * {
           flex-grow: 1; }
-      body .right .section .experience, body .right .section .education {
+        body .right .section .experience, body .right .section .education {
         margin-bottom: var(--xxxl-size); }
+        body .right .section .experience .tags {
+          font-size: var(--sm-size);
+          font-style: italic; }
+          body .right .section .experience .tags a {
+            margin-right: var(--x4s-size); }
+          body .right .section .experience .tags a:not(:last-child)::after {
+            content: ', '; }  
       body .right .section .experience .manager {
         font-size: var(--sm-size);
         color: #909e9a; }
